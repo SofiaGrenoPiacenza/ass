@@ -1,0 +1,96 @@
+:root {
+  --color-lila: #c8a2c8;
+  --color-verde: #00796b;
+  --color-blanco: #ffffff;
+  --color-oscuro: #212121;
+}
+
+body {
+  font-family: 'Quicksand', sans-serif;
+  background-color: var(--color-gris);
+  color: var(--color-oscuro);
+  margin: 0;
+  padding: 0;
+}
+
+h1, h2, h3, h4, h5 {
+  color: var(--color-verde);
+  font-weight: 600;
+}
+
+header {
+  background-color: var(--color-purpura) !important;
+}
+
+.nav-link {
+  font-weight: 600;
+  transition: color 0.3s;
+}
+
+.nav-link:hover {
+  color: var(--color-verde) !important;
+}
+
+.card {
+  border: none;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+  border-radius: 16px;
+  transition: transform 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
+
+.card-title {
+  color: var(--color-verde);
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+
+.btn-primary {
+  background-color: var(--color-verde);
+  border-color: var(--color-verde);
+  font-weight: 600;
+  border-radius: 10px;
+}
+
+.btn-primary:hover {
+  background-color: #004d40;
+  border-color: #004d40;
+}
+
+footer {
+  background-color: var(--color-oscuro) !important;
+  color: var(--color-blanco);
+}
+
+form input, form textarea {
+  border-radius: 10px;
+  border: 1px solid #ccc;
+  transition: border 0.3s;
+}
+
+form input:focus, form textarea:focus {
+  border-color: var(--color-verde);
+  box-shadow: 0 0 5px var(--color-verde);
+  outline: none;
+}
+
+a {
+  color: var(--color-verde);
+}
+
+a:hover {
+  text-decoration: underline;
+  
+}@media (max-width: 768px) {
+  h1 {
+    font-size: 1.5rem;
+  }
+
+  nav ul {
+    flex-direction: column;
+    align-items: center;
+  }
+}

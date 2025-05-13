@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Contacto - Tienda de Mascotas</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"/>
+  <link rel="stylesheet" href="../css/styles.css" />
+  <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+</head>
+<body>
+  <header class="bg-primary text-white p-3">
+    <div class="container d-flex justify-content-between align-items-center">
+      <h1 class="h3">🐾 Tienda de Mascotas PaDel</h1>
+      <nav>
+        <ul class="nav">
+          <li class="nav-item"><a class="nav-link text-white" href="../index.html">Inicio</a></li>
+          <li class="nav-item"><a class="nav-link text-white" href="alimentos.html">Alimentos</a></li>
+          <li class="nav-item"><a class="nav-link text-white" href="accesorios.html">Accesorios</a></li>
+          <li class="nav-item"><a class="nav-link text-white" href="contacto.html">Contacto</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container my-5">
+    <h2>Contacto</h2>
+    <p>¿Tenés alguna duda o sugerencia? Estamos para ayudarte.</p>
+
+    <div class="row g-4 mt-4">
+      <div class="col-md-6">
+        <h4>Envíanos tu mensaje</h4>
+        <form>
+          <div class="mb-3">
+            <label for="nombre" class="form-label">Nombre</label>
+            <input type="text" class="form-control" id="nombre" placeholder="Tu nombre">
+          </div>
+          <div class="mb-3">
+            <label for="email" class="form-label">Correo electrónico</label>
+            <input type="email" class="form-control" id="email" placeholder="tucorreo@mail.com">
+          </div>
+          <div class="mb-3">
+            <label for="mensaje" class="form-label">Sugerencias / Consultas</label>
+            <textarea class="form-control" id="mensaje" rows="4" placeholder="Escribí tu mensaje..."></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary">Enviar</button>
+        </form>
+      </div>
+
+      <!-- Información -->
+      <div class="col-md-6">
+        <h4>Redes Sociales</h4>
+        <p>
+          <a href="#" class="text-decoration-none text-dark"><i class="fab fa-instagram"></i> Instagram</a><br>
+          <a href="#" class="text-decoration-none text-dark"><i class="fab fa-facebook"></i> Facebook</a><br>
+          <a href="#" class="text-decoration-none text-dark"><i class="fab fa-whatsapp"></i> WhatsApp</a>
+        </p>
+
+        <h4>Teléfonos</h4>
+        <p>📞 (000) 1234-5678<br>📱 (000) 9876-5432</p>
+
+        <h4>Ubicación</h4>
+        <div class="ratio ratio-16x9">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3282.316389088578!2d-58.41642022410187!3d-34.64447696099965!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bccb2f0a0f6ff5%3A0x2a5b93433e8c16c7!2sBuenos%20Aires%2C%20Argentina!5e0!3m2!1ses-419!2sus!4v1714594744123!5m2!1ses-419!2sus"
+            width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy">
+          </iframe>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <footer class="bg-dark text-white text-center p-3 mt-5">
+    &copy; 2025 Tienda de Mascotas
+  </footer>
+</body>
+</html>
